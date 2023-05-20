@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "M PLUS 1p", sans-serif;
+}
+header {
+  padding: 53px 0;
+  background-color: #fff;
+}
+header a {
+  text-decoration: none;
+}
+nav a {
+  color: #080800;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 2px;
+  margin-right: 37px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+main {
+  margin-bottom: 58px;
+  background-image: url(../images/OZ3P4A.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer {
+  padding-top: 84px;
+  margin-top: 58px;
+  padding-bottom: 72px;
+  background-color: #080800;
+}
+.container {
+  max-width: 1145px;
+  margin: auto;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.logo a {
+  color: #0f044c;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 43px;
+  letter-spacing: 2px;
+}
+
+.contact-tel {
+  color: #30233d;
+  font-size: 14px;
+  line-height: 29px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.contact-tel::before {
+  margin-right: 18px;
+
+  content: url(../images/tel.svg);
+}
+.text {
+  margin-top: 72px;
+}
+.text p {
+  max-width: 870px;
+  color: #30233d;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 40px;
+}
+h1 {
+  font-weight: 500px;
+  font-size: 54px;
+  line-height: 80px;
+  color: #fcfcfc;
+  padding-top: 126px;
+  margin-bottom: 22px;
+}
+h2 {
+  margin-top: 33px;
+  margin-bottom: 13px;
+}
+h3 {
+  color: #a22f32;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 187px;
+  margin-bottom: 12px;
+}
+.main-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.main-cards p {
+  width: 290px;
+  color: #30233d;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.card1 {
+  width: 362px;
+  height: 395px;
+  border: solid 1px #f61067;
+  padding: 38px 254px 38px 36px;
+}
+.card2 {
+  width: 362px;
+  height: 395px;
+  border: solid 1px #f61067;
+  padding: 38px 254px 38px 36px;
+}
+.card3 {
+  width: 362px;
+  height: 395px;
+  border: solid 1px #f61067;
+  padding: 38px 254px 38px 36px;
+}
+main-cards p {
+  width: 290px;
+  height: 395px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #30233d;
+}
+.responsive {
+  color: #f4f4ed;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 2px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.p {
+  color: #c4c4c4;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19px;
+}
+footer img {
+  margin-left: 19px;
+}
